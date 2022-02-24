@@ -172,11 +172,20 @@ img {
 
 .vegetables {
     background: #F8F8F8;
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+
+.vegetables__nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .vegetables-list {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     list-style-type: none;
     gap: 30px;
 }
@@ -267,6 +276,7 @@ img {
     background-position: center;
     padding: 15px 13px;
     border: 1px solid #76A713;
+    cursor: pointer;
 }
 
 .vegetables-btn:hover {
@@ -293,4 +303,170 @@ img {
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;    
+    cursor: pointer;
+}
+
+.vegetable-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: all 0.3s ease;
+}
+
+.vegetable-btn:active {
+    transition: all 0.5s ease;
+    background-color: rgb(111, 111, 255);
+    border: 1px solid rgb(111, 111, 255);
+}
+
+.health {
+    background-color: #FFFFFF;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.health__save {
+    display: flex;
+    align-items: center;
+    background-color:#76A713;
+    position: relative;
+}
+
+.save-bckr {
+    width: 364px;
+    height: 300px;
+    background-image: url(../image/organic-food-broccoli-cauliflower-vegetable-healthy-food-048dee346ae91fc800180ba480e36d13.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.save {
+    margin-left: -70px;
+    margin-right:40px;
+    margin-top: -55px;
+}
+
+.save-text {
+    margin: 0;
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;    
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.save-head {
+    width: 247px;
+    margin: 0;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 59px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.save-btn {
+    padding: 10px 18px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;    
+    background-color: #FF6600;
+    border: none;
+    position: absolute;
+    top: 215px;
+    left: 430px;
+}
+
+.save-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: all 0.3s ease;
+}
+
+.save-btn:active {
+    transition: all 0.5s ease;
+    background-color: rgb(111, 111, 255);
+    border: 1px solid rgb(111, 111, 255);
+}
+
+.health__offer {
+    display: flex;
+    align-items: center;
+    background-color:#FF6600;;
+    position: relative;
+}
+
+.offer-bckr {
+    width: 364px;
+    height: 300px;
+    background-image:url(../image/fruit-dietary-fiber-vegetable-food-health-fresh-fruits-69398c079f603f04f3cf8bef0bafbb1b.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.offer {
+    margin-left: -70px;
+    margin-right:40px;
+    margin-top: -55px;
+}
+
+.offer-text {
+    margin: 0;
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;    
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.offer-head {
+    width: 247px;
+    margin: 0;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 59px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.offer-btn {
+    padding: 10px 18px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;    
+    background-color: #76A713;
+    border: none;
+    position: absolute;
+    top: 215px;
+    left: 430px;
+}
+
+.offer-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: all 0.3s ease;
+}
+
+.offer-btn:active {
+    transition: all 0.5s ease;
+    background-color: rgb(111, 111, 255);
+    border: 1px solid rgb(111, 111, 255);
 }
